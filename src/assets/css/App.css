@@ -1,0 +1,583 @@
+:root{
+  --fondo: #F8F9F9;
+  --border:  #D6DBDF;
+  --border-red: #F20B27;
+}
+
+
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #808080;
+}
+
+.sm-icons {
+  flex-direction: row;
+}
+
+
+.container-about {
+  padding: 75px 244px;
+  border-bottom: 3px solid #ffffff;
+  background-color: #cacfd20c !important;
+  margin-left: -80px;
+}
+
+.img-navbar {
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-right: 10px;
+}
+
+.button-slider {
+  margin: 0px auto;
+  margin-top: 10px;
+  width: 130px;
+}
+
+.menu-navbar {
+  margin: 0px auto;
+}
+
+.img-fullscreen-home {
+  background: rgb(59, 50, 54);
+  background: radial-gradient(circle, rgba(59, 50, 54, 0.3029586834733894) 0%, rgba(66, 91, 121, 0.742734593837535) 100%);
+}
+
+.title-Home{
+  font-size: 80px;
+  color: white;
+  z-index: 4;
+}
+
+.title-Home-background{
+  font-size: 80px;
+  color: #000000;
+  position:relative;
+  z-index: 3;
+  margin-top: -95px;
+  margin-left: -20px;
+}
+
+.subtitle-home {
+  font-size: 50px;
+}
+
+.arrow-home-slider{
+  color: white;
+  position: absolute;
+  z-index: 33;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 60px;
+  text-align: center;
+  animation-name: arrow;
+  animation-duration: infinite;
+  
+}
+
+
+
+.btn-scrolltop {
+  width: 50px;
+  height: 50px;
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--border-red);
+  color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  transform: translateY(100px);
+  transition: 0.3s;
+}
+
+.btn-scrolltop-on{
+  transform: translateY(0);
+}
+
+@media only screen and (max-width: 960px) {
+  .sm-icons .nav-item {
+    padding-right: 1em;
+  }
+}
+
+@media (max-width: 1106px){
+  .carousel-caption{
+    width: 90%;
+    justify-content: center;
+    left: 8% !important;
+    right: 50% !important;
+  }
+
+  .title-Home{
+    margin-top: 0px ;
+
+  }
+  .title-Home-background{
+    margin-top: -95px ;
+  }
+
+  .arrow-home-slider{
+    margin-bottom: -51px !important;
+  }
+}
+
+@media (max-width:861px) {
+  .carousel-caption{
+    width: 90%;
+    justify-content: center;
+    left: 8% !important;
+    right: 50% !important;
+  }
+  .title-Home{
+    font-size: 70px;
+    margin-top: 0px ;
+
+  }
+  .title-Home-background{
+    font-size: 70px;
+    margin-top: -84px ;
+  }
+
+  .arrow-home-slider{
+    margin-bottom: -51px !important;
+  }
+
+}
+
+@media (max-width:756px){
+  .carousel-caption{
+    width: 100%;
+    justify-content: center;
+    left: 1% !important;
+    right: 50% !important;
+  }
+
+}
+/*--------------------------------------------------------------
+# About Me
+--------------------------------------------------------------*/
+
+#About {
+  border-bottom: 1px solid var(--border) ;
+  background-color: var(--fondo) !important; 
+}
+
+.button-Aboutme-container{
+  width: 150px!important;
+  margin: 0px auto !important;
+  margin-top: 20px !important;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  padding-right: 50px;
+  border-radius: 100%;
+  border: 1px solid var(--border-red);
+}
+
+
+.h4-texto-about:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: var(--border-red);
+  left: 43%;
+
+}
+
+.h4-texto-about {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+
+/*--------------------------------------------------------------
+# Experience
+--------------------------------------------------------------*/
+
+#Experience{
+  border-bottom: 1px solid var(--border);
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title p {
+  color: rgb(19, 18, 18);
+  font-size: 16px;
+}
+
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.section-title h4:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: var(--border-red);
+  bottom: 0;
+  left: 50%;
+  margin-left: -30px;
+}
+
+ul.timeline-list {
+  position: relative;
+  margin: 0;
+  padding: 0
+}
+
+ul.timeline-list:before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color:var(--border-red);
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+ul.timeline-list li {
+  position: relative;
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.timeline_content {
+  border: 2px solid var(--border-red);
+  background-color: #fff
+}
+
+ul.timeline-list li .timeline_content {
+  width: 45%;
+  color: #333;
+  padding: 30px;
+  float: left;
+  text-align: right;
+}
+
+ul.timeline-list li:nth-child(2n) .timeline_content {
+  float: right;
+  text-align: left;
+}
+
+.timeline_content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+ul.timeline-list li:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color:var(--border-red);
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.timeline_content span {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: poppins;
+  color: var(--border-red);
+}
+
+.experience-main {
+  border-bottom: 3px solid #ffffff;
+}
+
+
+/*--------------------------------------------------------------
+# Education
+--------------------------------------------------------------*/
+
+
+#education {
+  padding: 100px 15px 20px 15px;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--fondo);
+  text-align: center;
+}
+
+#education h2 {
+  color: black;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+#education h2 {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+#education h2:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color:var(--border-red);
+  bottom: 0;
+  left: 50%;
+  margin-left: -30px;
+  margin-bottom: 10px;
+}
+
+.education-block {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid var(--border-red);
+  text-align: left;
+}
+
+.education-block h3 {
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  color: var(--border-red);
+  ;
+  padding-bottom: 20px;
+}
+
+.education-block span {
+  color: black;
+  float: right;
+}
+
+.education-block h4 {
+  color: black;;
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+
+.education-block p,
+.education-block ul {
+  margin: 0;
+  color: #74808a;
+  font-size: 0.9em;
+}
+
+.education-block ul {
+  padding: 0 0 0 15px;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: #e7f8f6;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--border-red);
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+  # Skills
+  --------------------------------------------------------------*/
+#skills {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  border-bottom: 1px solid var(--border);
+}
+
+#skills h2 {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: black;
+}
+
+
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+/*--------------------------------------------------------------
+  # Projects
+  --------------------------------------------------------------*/
+#projects {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  background-color: var(--fondo);
+}
+
+#projects h2 {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: black;
+}
+
+#projects h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--border-red);
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.card-project {
+  border: 1px solid var(--border-red);
+}
+
+/*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
+
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center;
+}
+
+#contact h2 {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: black;
+}
+
+#contact h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--border-red);
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.container-contactme{
+  width: 600px;
+  margin: 0px auto !important;
+  background-color: var(--fondo);
+  border: 1px solid var(--border);
+}
+
+.container-peliculas{
+  width: 50%;
+  margin: 0px auto;
+}
+
+.container-peliculas h2{
+  text-align: center;
+}
