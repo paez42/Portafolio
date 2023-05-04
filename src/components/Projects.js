@@ -30,7 +30,7 @@ class Projects extends React.Component {
                                 <div className="button-Aboutme-container row">
                                   <a
                                     className="button-Aboutme btn btn-danger"
-                                    href="./assets/Download/CV Maxi.pdf"
+                                    href="https://rickandmortyappd.netlify.app/"
                                     role="button"
                                     target="_blank"
                                   >
@@ -38,9 +38,8 @@ class Projects extends React.Component {
                                   </a>
                                   <a
                                     className="button-Aboutme btn btn-outline-danger mt-3"
-                                    href="./assets/Download/CV Maxi.pdf"
+                                    href="https://github.com/paez42/RickandMortyAPP"
                                     role="button"
-                                    download="CV Maximiliano Paez.pdf"
                                   >
                                     Repositorio GitHub
                                   </a>
