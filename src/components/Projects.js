@@ -1,4 +1,6 @@
 import React from "react";
+import imgRick from "../assets/Download/RickandMorty.png";
+import imgCRUD from "../assets/Download/CRUD api.png";
 
 class Projects extends React.Component {
   render() {
@@ -46,11 +48,7 @@ class Projects extends React.Component {
                                   </a>
                                 </div>
                               </div>
-                              <img
-                                class="img-fluid"
-                                src="https://dummyimage.com/300x400/343a40/6c757d"
-                                alt="..."
-                              />
+                              <img class="img-fluid" src={imgRick} alt="..." />
                             </div>
                           </div>
                         </div>
@@ -90,7 +88,7 @@ class Projects extends React.Component {
                               </div>
                               <img
                                 className="img-fluid"
-                                src="https://dummyimage.com/300x400/343a40/6c757d"
+                                src={imgCRUD}
                                 alt="..."
                               />
                             </div>
