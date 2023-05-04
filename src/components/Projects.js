@@ -40,6 +40,7 @@ class Projects extends React.Component {
                                     className="button-Aboutme btn btn-outline-danger mt-3"
                                     href="https://github.com/paez42/RickandMortyAPP"
                                     role="button"
+                                    target="_blank"
                                   >
                                     Repositorio GitHub
                                   </a>
@@ -71,7 +72,7 @@ class Projects extends React.Component {
                                 <div className="button-Aboutme-container row">
                                   <a
                                     className="button-Aboutme btn btn-danger"
-                                    href="./assets/Download/CV Maxi.pdf"
+                                    href="https://crud-api-project.netlify.app"
                                     role="button"
                                     target="_blank"
                                   >
@@ -79,9 +80,9 @@ class Projects extends React.Component {
                                   </a>
                                   <a
                                     className="button-Aboutme btn btn-outline-danger mt-3"
-                                    href="./assets/Download/CV Maxi.pdf"
+                                    href="https://github.com/paez42/CRUD-api-projet"
                                     role="button"
-                                    download="CV Maximiliano Paez.pdf"
+                                    target="_blank"
                                   >
                                     Repositorio GitHub
                                   </a>
