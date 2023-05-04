@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.dc30ffcd.css",
-    "main.js": "/Portafolio/static/js/main.580a651e.js",
+    "main.js": "/Portafolio/static/js/main.53e7f6ff.js",
     "static/media/12118740___n-removebg.png": "/Portafolio/static/media/12118740_10206995719844050_6654430610218142104_n-removebg.69654651ad299125f08d.png",
+    "static/media/RickandMorty.png": "/Portafolio/static/media/RickandMorty.64666ed94c4a3df7c834.png",
     "static/media/servicio.jpg": "/Portafolio/static/media/servicio.8f81fa0e4826ee515666.jpg",
     "static/media/CV Maxi.pdf": "/Portafolio/static/media/CV Maxi.43f2ea72d48e41c58ffc.pdf",
     "static/media/microsoft-sql-server-logo-svgrepo-com.svg": "/Portafolio/static/media/microsoft-sql-server-logo-svgrepo-com.7e3c2025a2f083448bd8b4aa32b126ea.svg",
@@ -20,10 +21,10 @@
     "static/media/tailwindcss-plain.f4af2906.svg": "/Portafolio/static/media/tailwindcss-plain.f4af2906.e7b4a92d5aefbddd6f0651c024144be2.svg",
     "static/media/html5.svg": "/Portafolio/static/media/html5.8664168d5bc90b1a24396f85aadbf623.svg",
     "main.dc30ffcd.css.map": "/Portafolio/static/css/main.dc30ffcd.css.map",
-    "main.580a651e.js.map": "/Portafolio/static/js/main.580a651e.js.map"
+    "main.53e7f6ff.js.map": "/Portafolio/static/js/main.53e7f6ff.js.map"
   },
   "entrypoints": [
     "static/css/main.dc30ffcd.css",
-    "static/js/main.580a651e.js"
+    "static/js/main.53e7f6ff.js"
   ]
 }
