@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.dc30ffcd.css",
-    "main.js": "/Portafolio/static/js/main.8f8bee27.js",
+    "main.js": "/Portafolio/static/js/main.580a651e.js",
     "static/media/12118740___n-removebg.png": "/Portafolio/static/media/12118740_10206995719844050_6654430610218142104_n-removebg.69654651ad299125f08d.png",
     "static/media/servicio.jpg": "/Portafolio/static/media/servicio.8f81fa0e4826ee515666.jpg",
     "static/media/CV Maxi.pdf": "/Portafolio/static/media/CV Maxi.43f2ea72d48e41c58ffc.pdf",
@@ -20,10 +20,10 @@
     "static/media/tailwindcss-plain.f4af2906.svg": "/Portafolio/static/media/tailwindcss-plain.f4af2906.e7b4a92d5aefbddd6f0651c024144be2.svg",
     "static/media/html5.svg": "/Portafolio/static/media/html5.8664168d5bc90b1a24396f85aadbf623.svg",
     "main.dc30ffcd.css.map": "/Portafolio/static/css/main.dc30ffcd.css.map",
-    "main.8f8bee27.js.map": "/Portafolio/static/js/main.8f8bee27.js.map"
+    "main.580a651e.js.map": "/Portafolio/static/js/main.580a651e.js.map"
   },
   "entrypoints": [
     "static/css/main.dc30ffcd.css",
-    "static/js/main.8f8bee27.js"
+    "static/js/main.580a651e.js"
   ]
 }
