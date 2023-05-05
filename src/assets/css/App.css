@@ -534,6 +534,12 @@ section {
   border: 1px solid var(--border-red);
 }
 
+.imgProject {
+  height: 300px;
+  width: 300px;
+  border-left: 1px solid var(--border-red);
+}
+
 /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/

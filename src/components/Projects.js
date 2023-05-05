@@ -48,7 +48,11 @@ class Projects extends React.Component {
                                   </a>
                                 </div>
                               </div>
-                              <img class="img-fluid" src={imgRick} alt="..." />
+                              <img
+                                class="imgProject img-fluid"
+                                src={imgRick}
+                                alt="..."
+                              />
                             </div>
                           </div>
                         </div>
@@ -87,7 +91,7 @@ class Projects extends React.Component {
                                 </div>
                               </div>
                               <img
-                                className="img-fluid"
+                                className="imgProject img-fluid"
                                 src={imgCRUD}
                                 alt="..."
                               />
