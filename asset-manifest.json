@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.dc30ffcd.css",
-    "main.js": "/Portafolio/static/js/main.53e7f6ff.js",
+    "main.css": "/Portafolio/static/css/main.f7d69858.css",
+    "main.js": "/Portafolio/static/js/main.a05ee757.js",
     "static/media/12118740___n-removebg.png": "/Portafolio/static/media/12118740_10206995719844050_6654430610218142104_n-removebg.69654651ad299125f08d.png",
     "static/media/RickandMorty.png": "/Portafolio/static/media/RickandMorty.64666ed94c4a3df7c834.png",
     "static/media/servicio.jpg": "/Portafolio/static/media/servicio.8f81fa0e4826ee515666.jpg",
@@ -20,11 +20,11 @@
     "static/media/css3-original.fe70a3d1.svg": "/Portafolio/static/media/css3-original.fe70a3d1.39769a8bd378bf410d6b381a8d88fa35.svg",
     "static/media/tailwindcss-plain.f4af2906.svg": "/Portafolio/static/media/tailwindcss-plain.f4af2906.e7b4a92d5aefbddd6f0651c024144be2.svg",
     "static/media/html5.svg": "/Portafolio/static/media/html5.8664168d5bc90b1a24396f85aadbf623.svg",
-    "main.dc30ffcd.css.map": "/Portafolio/static/css/main.dc30ffcd.css.map",
-    "main.53e7f6ff.js.map": "/Portafolio/static/js/main.53e7f6ff.js.map"
+    "main.f7d69858.css.map": "/Portafolio/static/css/main.f7d69858.css.map",
+    "main.a05ee757.js.map": "/Portafolio/static/js/main.a05ee757.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc30ffcd.css",
-    "static/js/main.53e7f6ff.js"
+    "static/css/main.f7d69858.css",
+    "static/js/main.a05ee757.js"
   ]
 }
